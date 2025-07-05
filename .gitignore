@@ -1,0 +1,45 @@
+# === MQL5 / MetaTrader ===
+*.ex5              # Compiled EA file (binary)
+*.ex4
+*.mqh.ex5
+*.mqh.ex4
+*.hst              # History files
+*.dat
+*.ini
+*.log              # Terminal logs
+*.txt
+*.mq5~
+*.mq4~
+
+# === Python (Flask server) ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db               # SQLite (if used for licenses)
+instance/
+.env               # Environment variables
+.env.*             # Extra .env variants (e.g. .env.prod)
+*.sqlite3
+
+# === Node / Web Dashboard (if added later) ===
+node_modules/
+dist/
+build/
+*.log
+package-lock.json
+yarn.lock
+
+# === macOS / Windows / Linux ===
+.DS_Store
+Thumbs.db
+
+# === VS Code / PyCharm ===
+.vscode/
+.idea/
+
+# === Git ===
+*.orig
+*.rej
+*.bak
+*.swp
